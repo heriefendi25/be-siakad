@@ -22,6 +22,6 @@ class UserSeeder extends Seeder
             'roles' => 'mahasiswa',
         ]);
 
-        User::factory(10)->create();
+        User::factory(50)->create();
     }
 }
